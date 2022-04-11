@@ -1,5 +1,6 @@
 (function($) {
     "use strict";
+   
 
     /*---------------------------------
            Settings Menu Class Active
@@ -1210,3 +1211,26 @@ function getUrlVar(){
     }
     return resultArray; // возвращаем результат
 }
+
+
+const esc =   document.querySelector('.bg-modal')
+const btnClose = document.querySelector('.close-btn')
+document.addEventListener('keydown', function (e){
+    if(e.key === 'Escape') {
+
+        if(!esc.classList.contains('d-none')) {
+            esc.classList.add('d-none')
+        }
+    }
+
+})
+esc.onmouseover = function () {
+    if (popupshow)
+    {
+        $(".close-btn").show();
+        $(".volume-action").show();
+        $("#proflink").show();
+        setTimeout("HideCloseBtn()", 3000);
+    }
+}
+esc.onmouseout =  setTimeout("HideCloseBtn()", 3000);
