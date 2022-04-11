@@ -1,0 +1,2 @@
+<a class="pjax btn login-btn" href="<?php echo e(route('upload')); ?>"><?php echo e($slot); ?></a>
+<?php /**PATH D:\Server\domains\qick.fun\script\resources\views/components/welcome/homelinkupload.blade.php ENDPATH**/ ?>
