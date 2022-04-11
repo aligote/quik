@@ -1,2 +1,0 @@
-<a href="<?php echo e(route('login')); ?>" class="btn login-btn pjax"><?php echo e($slot); ?></a>
-<?php /**PATH D:\Server\domains\qick.fun\script\resources\views/components/welcome/homelink.blade.php ENDPATH**/ ?>

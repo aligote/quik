@@ -21,8 +21,8 @@ class WelcomeController extends Controller
             // ['country', 'Russia'],
         ])->withCount('favourite_to_user')
         ->withCount('comments')
-        ->orderBy('favourite_to_user_count','desc')
-        ->orderBy('view','desc')
+//        ->orderBy('favourite_to_user_count','desc')
+//        ->orderBy('view','desc')
         ->orderBy('comments_count','desc')->latest()->get();
 
         // ->paginate(20);
@@ -38,8 +38,8 @@ class WelcomeController extends Controller
              ['pol', $category],
         ])->withCount('favourite_to_user')
             ->withCount('comments')
-            ->orderBy('favourite_to_user_count','desc')
-            ->orderBy('view','desc')
+//            ->orderBy('favourite_to_user_count','desc')
+//            ->orderBy('view','desc')
             ->orderBy('comments_count','desc')->latest()->get();
         return view ('welcome', ['videos' => $videos, 'md'=> $md, 'site_value' => $site_value ]);
     }

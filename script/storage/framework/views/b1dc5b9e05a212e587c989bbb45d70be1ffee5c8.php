@@ -1,6 +1,6 @@
 <header>
     <div class="header-area">
-        <div class="container">
+        <div class="container-lg">
             <div class="row">
                 <div class="col-lg-3">
                     <div class="logo-area">

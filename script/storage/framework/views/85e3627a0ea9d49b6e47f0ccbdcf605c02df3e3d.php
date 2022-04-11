@@ -1,3 +1,0 @@
-<?php $__currentLoopData = $videos; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $video): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-<?php echo $__env->make('layouts.frontend.section.singlevideo', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
-<?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?><?php /**PATH D:\Server\domains\qick.fun\script\resources\views/ajaxvideo.blade.php ENDPATH**/ ?>

@@ -53,7 +53,7 @@ $("video, body").swipe({
 
 <!-- modal -->
 <div class="bg-modal d-none">
-    <div class="close-btn">
+    <div class="close-btn" >
         <a href="javascript:void(0)"><img src="{{ asset('frontend/img/cancel.png') }}"></a>
     </div>
     <div class="modal-content-area">
